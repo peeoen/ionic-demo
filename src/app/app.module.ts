@@ -27,6 +27,11 @@ import { RangePage } from '../pages/range/range';
 import { SearchBarPage } from '../pages/search-bar/search-bar';
 import { SegmentPage } from '../pages/segment/segment';
 import { SelectPage } from '../pages/select/select';
+import { SlidesPage } from '../pages/slides/slides';
+import { ToastPage } from '../pages/toast/toast'; 
+import { TogglePage } from '../pages/toggle/toggle';
+import { FooterToolbarPage } from '../pages/footer-toolbar/footer-toolbar';
+import { TabsPage, TabBasicContentPage } from '../pages/tabs/tabs';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -58,7 +63,13 @@ const components = [
   RangePage,
   SearchBarPage,
   SegmentPage,
-  SelectPage
+  SelectPage,
+  SlidesPage,
+  ToastPage,
+  TogglePage,
+  FooterToolbarPage,
+  TabsPage,
+  TabBasicContentPage
  ]
 
 @NgModule({

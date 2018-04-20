@@ -25,6 +25,11 @@ import { RangePage } from '../pages/range/range';
 import { SearchBarPage } from '../pages/search-bar/search-bar';
 import { SegmentPage } from '../pages/segment/segment';
 import { SelectPage } from '../pages/select/select';
+import { SlidesPage } from '../pages/slides/slides';
+import { ToastPage } from '../pages/toast/toast'; 
+import { TogglePage } from '../pages/toggle/toggle';
+import { FooterToolbarPage } from '../pages/footer-toolbar/footer-toolbar';
+import { TabsPage } from '../pages/tabs/tabs';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -73,6 +78,11 @@ export class MyApp {
       { title: 'Search bar', component: SearchBarPage},
       { title: 'Segment', component: SegmentPage},
       { title: 'Select', component: SelectPage},
+      { title: 'Slides', component: SlidesPage},
+      { title: 'Toast', component: ToastPage},
+      { title: 'Toggle', component: TogglePage},
+      { title: 'Footer Toolbar', component: FooterToolbarPage},
+      { title: 'Tabs', component: TabsPage},
     ];
   }
 
