@@ -21,6 +21,7 @@ import { InputsPage } from '../pages/inputs/inputs';
 import { ListsPage } from '../pages/lists/lists';
 import { LoadingPage } from '../pages/loading/loading';
 import { ModalPage, ModalContentPage } from '../pages/modal/modal';
+import { PopoverPage, PopoverContentPage } from '../pages/popover/popover';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -46,6 +47,8 @@ const components = [
   LoadingPage,
   ModalPage,
   ModalContentPage,
+  PopoverPage,
+  PopoverContentPage
  ]
 
 @NgModule({
