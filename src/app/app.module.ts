@@ -8,6 +8,7 @@ import { ItemDetailsPage } from '../pages/item-details/item-details';
 import { ListPage } from '../pages/list/list';
 import { ActionSheetsPage } from '../pages/action-sheets/action-sheets';
 import { AlertsPage } from '../pages/alerts/alerts';
+import { BadgesPage } from '../pages/badges/badges';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -19,7 +20,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ItemDetailsPage,
     ListPage,
     ActionSheetsPage,
-    AlertsPage
+    AlertsPage,
+    BadgesPage
   ],
   imports: [
     BrowserModule,
@@ -32,7 +34,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ItemDetailsPage,
     ListPage,
     ActionSheetsPage,
-    AlertsPage
+    AlertsPage,
+    BadgesPage
   ],
   providers: [
     StatusBar,
