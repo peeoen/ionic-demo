@@ -19,6 +19,8 @@ import { GridPage } from '../pages/grid/grid';
 import { IconsPage } from '../pages/icons/icons';
 import { InputsPage } from '../pages/inputs/inputs';
 import { ListsPage } from '../pages/lists/lists';
+import { LoadingPage } from '../pages/loading/loading';
+import { ModalPage, ModalContentPage } from '../pages/modal/modal';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -40,24 +42,15 @@ const components = [
   GridPage,
   IconsPage,
   InputsPage,
-  ListsPage
+  ListsPage,
+  LoadingPage,
+  ModalPage,
+  ModalContentPage,
  ]
 
 @NgModule({
   declarations: [
-     ...components
-    // MyApp,
-    // HelloIonicPage,
-    // ItemDetailsPage,
-    // ListPage,
-    // ActionSheetsPage,
-    // AlertsPage,
-    // BadgesPage,
-    // ButtonsPage,
-    // CardsPage,
-    // CheckboxesPage,
-    // DatetimePage,
-    // FabsPage
+    ...components,
   ],
   imports: [
     BrowserModule,
@@ -65,19 +58,7 @@ const components = [
   ],
   bootstrap: [IonicApp],
   entryComponents: [
-    ...components
-    // MyApp,
-    // HelloIonicPage,
-    // ItemDetailsPage,
-    // ListPage,
-    // ActionSheetsPage,
-    // AlertsPage,
-    // BadgesPage,
-    // ButtonsPage,
-    // CardsPage,
-    // CheckboxesPage,
-    // DatetimePage,
-    // FabsPage
+    ...components,
   ],
   providers: [
     StatusBar,
