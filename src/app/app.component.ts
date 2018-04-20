@@ -20,6 +20,10 @@ import { ListsPage } from '../pages/lists/lists';
 import { LoadingPage } from '../pages/loading/loading';
 import { ModalPage } from '../pages/modal/modal';
 import { PopoverPage } from '../pages/popover/popover';
+import { RadioPage } from '../pages/radio/radio';
+import { RangePage } from '../pages/range/range';
+import { SearchBarPage } from '../pages/search-bar/search-bar';
+import { SegmentPage } from '../pages/segment/segment';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -63,6 +67,10 @@ export class MyApp {
       { title: 'Loading', component: LoadingPage},
       { title: 'Modal', component: ModalPage},
       { title: 'Popover', component: PopoverPage},
+      { title: 'Radio', component: RadioPage},
+      { title: 'Range', component: RangePage},
+      { title: 'Search bar', component: SearchBarPage},
+      { title: 'Segment', component: SegmentPage},
     ];
   }
 

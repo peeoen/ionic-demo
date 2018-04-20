@@ -22,6 +22,10 @@ import { ListsPage } from '../pages/lists/lists';
 import { LoadingPage } from '../pages/loading/loading';
 import { ModalPage, ModalContentPage } from '../pages/modal/modal';
 import { PopoverPage, PopoverContentPage } from '../pages/popover/popover';
+import { RadioPage } from '../pages/radio/radio';
+import { RangePage } from '../pages/range/range';
+import { SearchBarPage } from '../pages/search-bar/search-bar';
+import { SegmentPage } from '../pages/segment/segment';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -48,7 +52,11 @@ const components = [
   ModalPage,
   ModalContentPage,
   PopoverPage,
-  PopoverContentPage
+  PopoverContentPage,
+  RadioPage,
+  RangePage,
+  SearchBarPage,
+  SegmentPage
  ]
 
 @NgModule({
