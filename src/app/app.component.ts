@@ -9,6 +9,7 @@ import { AlertsPage } from '../pages/alerts/alerts';
 import { BadgesPage } from '../pages/badges/badges';
 import { ButtonsPage } from '../pages/buttons/buttons';
 import { CardsPage } from '../pages/cards/cards';
+import { CheckboxesPage } from '../pages/checkboxes/checkboxes';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -41,6 +42,7 @@ export class MyApp {
       { title: 'Badges', component: BadgesPage},
       { title: 'Buttons', component: ButtonsPage},
       { title: 'Cards', component: CardsPage},
+      { title: 'Checkboxes', component: CheckboxesPage},
     ];
   }
 
