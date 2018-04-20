@@ -13,23 +13,43 @@ import { ButtonsPage } from '../pages/buttons/buttons';
 import { CardsPage } from '../pages/cards/cards';
 import { CheckboxesPage } from '../pages/checkboxes/checkboxes';
 import { DatetimePage } from '../pages/datetime/datetime';
+import { FabsPage } from '../pages/fabs/fabs';
+import { GesturesPage } from '../pages/gestures/gestures';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
+const components = [
+  MyApp,
+  HelloIonicPage,
+  ItemDetailsPage,
+  ListPage,
+  ActionSheetsPage,
+  AlertsPage,
+  BadgesPage,
+  ButtonsPage,
+  CardsPage,
+  CheckboxesPage,
+  DatetimePage,
+  FabsPage,
+  GesturesPage
+ ]
+
 @NgModule({
   declarations: [
-    MyApp,
-    HelloIonicPage,
-    ItemDetailsPage,
-    ListPage,
-    ActionSheetsPage,
-    AlertsPage,
-    BadgesPage,
-    ButtonsPage,
-    CardsPage,
-    CheckboxesPage,
-    DatetimePage
+     ...components
+    // MyApp,
+    // HelloIonicPage,
+    // ItemDetailsPage,
+    // ListPage,
+    // ActionSheetsPage,
+    // AlertsPage,
+    // BadgesPage,
+    // ButtonsPage,
+    // CardsPage,
+    // CheckboxesPage,
+    // DatetimePage,
+    // FabsPage
   ],
   imports: [
     BrowserModule,
@@ -37,17 +57,19 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   ],
   bootstrap: [IonicApp],
   entryComponents: [
-    MyApp,
-    HelloIonicPage,
-    ItemDetailsPage,
-    ListPage,
-    ActionSheetsPage,
-    AlertsPage,
-    BadgesPage,
-    ButtonsPage,
-    CardsPage,
-    CheckboxesPage,
-    DatetimePage
+    ...components
+    // MyApp,
+    // HelloIonicPage,
+    // ItemDetailsPage,
+    // ListPage,
+    // ActionSheetsPage,
+    // AlertsPage,
+    // BadgesPage,
+    // ButtonsPage,
+    // CardsPage,
+    // CheckboxesPage,
+    // DatetimePage,
+    // FabsPage
   ],
   providers: [
     StatusBar,
