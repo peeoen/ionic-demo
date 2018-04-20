@@ -16,6 +16,7 @@ import { DatetimePage } from '../pages/datetime/datetime';
 import { FabsPage } from '../pages/fabs/fabs';
 import { GesturesPage } from '../pages/gestures/gestures';
 import { GridPage } from '../pages/grid/grid';
+import { IconsPage } from '../pages/icons/icons';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -34,7 +35,8 @@ const components = [
   DatetimePage,
   FabsPage,
   GesturesPage,
-  GridPage
+  GridPage,
+  IconsPage
  ]
 
 @NgModule({
