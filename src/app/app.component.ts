@@ -13,6 +13,7 @@ import { CheckboxesPage } from '../pages/checkboxes/checkboxes';
 import { DatetimePage } from '../pages/datetime/datetime';
 import { FabsPage } from '../pages/fabs/fabs';
 import { GesturesPage } from '../pages/gestures/gestures';
+import { GridPage } from '../pages/grid/grid';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -49,6 +50,7 @@ export class MyApp {
       { title: 'Datetime', component: DatetimePage},
       { title: 'FABs', component: FabsPage},
       { title: 'Gestures', component: GesturesPage},
+      { title: 'Grid', component: GridPage},
     ];
   }
 

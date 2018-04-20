@@ -15,6 +15,7 @@ import { CheckboxesPage } from '../pages/checkboxes/checkboxes';
 import { DatetimePage } from '../pages/datetime/datetime';
 import { FabsPage } from '../pages/fabs/fabs';
 import { GesturesPage } from '../pages/gestures/gestures';
+import { GridPage } from '../pages/grid/grid';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -32,7 +33,8 @@ const components = [
   CheckboxesPage,
   DatetimePage,
   FabsPage,
-  GesturesPage
+  GesturesPage,
+  GridPage
  ]
 
 @NgModule({
