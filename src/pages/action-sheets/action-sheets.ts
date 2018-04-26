@@ -39,6 +39,7 @@ export class ActionSheetsPage {
           },
           {
             text: 'Share',
+            role: 'destructive',
             icon: !this.platform.is('ios') ? 'share' : null,
             handler: () => {
               console.log('Share clicked');
@@ -59,13 +60,22 @@ export class ActionSheetsPage {
             }
           },
           {
-            text: 'Cancel',
+            text: 'Cancel1',
             role: 'cancel', // will always sort to be on the bottom
             icon: !this.platform.is('ios') ? 'close' : null,
             handler: () => {
               console.log('Cancel clicked');
             }
-          }
+          },
+          {
+            text: 'Cancel2',
+            role: 'cancel', // will always sort to be on the bottom
+            icon: !this.platform.is('ios') ? 'close' : null,
+            handler: () => {
+              console.log('Cancel clicked');
+              return false;
+            }
+          },
         ]
       });
       actionSheet.present();

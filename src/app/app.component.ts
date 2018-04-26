@@ -30,6 +30,7 @@ import { ToastPage } from '../pages/toast/toast';
 import { TogglePage } from '../pages/toggle/toggle';
 import { FooterToolbarPage } from '../pages/footer-toolbar/footer-toolbar';
 import { TabsPage } from '../pages/tabs/tabs';
+import { CameraPage } from '../pages/camera/camera';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -83,6 +84,7 @@ export class MyApp {
       { title: 'Toggle', component: TogglePage},
       { title: 'Footer Toolbar', component: FooterToolbarPage},
       { title: 'Tabs', component: TabsPage},
+      { title: 'Camera', component: CameraPage},
     ];
   }
 

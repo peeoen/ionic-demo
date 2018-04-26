@@ -1,0 +1,24 @@
+<!--
+  Generated template for the CameraPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>camera</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <button ion-button (click)="takePhoto()" full color="primary">Take Photo</button>
+  <button ion-button (click)="getPhoto()" full color="secondary">Get Photo From Library</button>
+  <button ion-button (click)="cropPhoto()" full color="danger">Crop Image</button>
+  <!-- <button ion-button (click)="takePhoto()" full color="primary">Take a photo</button> -->
+  <p align="center">
+    <img [src]="photo" alt="myPhoto">
+  </p>
+</ion-content>
